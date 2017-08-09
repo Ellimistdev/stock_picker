@@ -1,4 +1,4 @@
-def stock_picker set
+def stock_picker(set)
     profit = 0
     for i in 0...set.length
         for j in (i+1)...set.length
